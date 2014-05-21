@@ -9,7 +9,7 @@ public class CharacterStats : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		health = 3;
+		health = 5;
 		strength = 5;
 	}
 	
