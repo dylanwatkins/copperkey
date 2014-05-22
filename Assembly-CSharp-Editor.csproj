@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FD3E6639-AC58-81AF-C808-3E73D8062451}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\Editor\ButterflyInspector.cs" />
+     <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\Editor\MaxAtlasSize.cs" />
+     <None Include="Assets\SkeletonData\animations.txt" />
+     <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation.shader" />
+     <None Include="Assets\Dungeon_Kit\Models\Doors_Gates\Animation_Info\steel_door_animation_list.txt" />
+     <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Rim.shader" />
+     <None Include="Assets\Shaders\MapShader.shader" />
+     <None Include="Assets\Dungeon_Kit\Models\Doors_Gates\Animation_Info\wood_door_animation_list.txt" />
+     <None Include="Assets\ToonFlowerPlant\Shader\Unlit-AlphaTest.shader" />
+     <None Include="Assets\Toon_Level_Kit\Documentation\Readme.txt" />
+     <None Include="Assets\Toon_Level_Kit\TLK-Medias\Materials\GlassTypeA.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation-Lightmap.shader" />
+     <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Glass.shader" />
+     <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Leave.shader" />
+     <None Include="Assets\ToonFlowerPlant\Shader\Unlit-Alpha.shader" />
+ <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+ <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4F87A328-A824-DB1E-8629-5D1D78D23868}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{64573AA5-4C1A-22A5-D976-B0871CC7739E}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{7778104F-1F4B-35D5-B631-E6E8807A2C3B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{BAF1FE00-51AC-8840-9816-8BA79C86C0E3}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
