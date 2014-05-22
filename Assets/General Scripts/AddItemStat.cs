@@ -70,7 +70,7 @@ public class AddItemStat : MonoBehaviour {
 
 		//Empty Item Boxes
 		if (emptyWeapon){
-			GUI.Box (new Rect(500, 40, 100, 100), "Empty", itemBox);
+			GUI.Box (new Rect(500, 40, 100, 100), "No Weapon", itemBox);
 		}
 		else if (emptyWeapon == false){
 			GUI.Box(new Rect(500, 40, 100, 100), weaponIcon);
@@ -78,10 +78,10 @@ public class AddItemStat : MonoBehaviour {
 			GUI.Label(new Rect(500, 140, 100, 25), "Strength +" + (this.GetComponent<CharacterStats>().strength - 5).ToString());
 		}
 		if (emptyArmour){
-			GUI.Box (new Rect(610, 40, 100, 100), "Empty", itemBox);
+			GUI.Box (new Rect(610, 40, 100, 100), "No Armour", itemBox);
 		}
 		if (emptyAccessory){
-			GUI.Box (new Rect(720, 40, 100, 100), "Empty", itemBox);
+			GUI.Box (new Rect(720, 40, 100, 100), "No Accessory", itemBox);
 		}
 
 	}
