@@ -6,7 +6,7 @@ public class AddItemStat : MonoBehaviour {
 	Collider currentCollider;
 	bool itemPickedUp = false;
 	bool emptyWeapon = true;
-	bool emptyArmour = true;
+	bool emptyArmor = true;
 	bool emptyAccessory = true;
 	string itemType;
 	string itemName;
@@ -63,8 +63,8 @@ public class AddItemStat : MonoBehaviour {
 				weaponName = itemName;
 				weaponIcon = itemIcon;
 			}
-			else if(itemType == "armour"){
-				emptyArmour = false;
+			else if(itemType == "armor"){
+				emptyArmor = false;
 			}
 		}
 
@@ -77,8 +77,8 @@ public class AddItemStat : MonoBehaviour {
 			GUI.Label(new Rect(500, 15, 100, 25), weaponName);
 			GUI.Label(new Rect(500, 140, 100, 25), "Strength +" + (this.GetComponent<CharacterStats>().strength - 5).ToString());
 		}
-		if (emptyArmour){
-			GUI.Box (new Rect(610, 40, 100, 100), "No Armour", itemBox);
+		if (emptyArmor){
+			GUI.Box (new Rect(610, 40, 100, 100), "No Armor", itemBox);
 		}
 		if (emptyAccessory){
 			GUI.Box (new Rect(720, 40, 100, 100), "No Accessory", itemBox);
