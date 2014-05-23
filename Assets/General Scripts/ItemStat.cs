@@ -6,7 +6,7 @@ public class ItemStat : MonoBehaviour {
 	public string itemName;
 	public string type;
 	public int strength;
-	public int armour;
+	public int armor;
 	public int health;
 	public GUIStyle itemIcon;
 

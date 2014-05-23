@@ -21,6 +21,7 @@ public class GUIManager : MonoBehaviour {
 
 	void OnGUI () {
 		//Hearts
+		health = controller.GetComponent<CharacterStats>().health;
 		for (int i = 0; i < health; i++) {
 			GUI.Box(new Rect((36 * i) + 150, 50, 40, 40), "", healthIcon);
 		}
