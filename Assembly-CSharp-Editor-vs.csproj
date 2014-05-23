@@ -60,6 +60,7 @@
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation-Lightmap.shader" />
      <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Glass.shader" />
+     <None Include="Assets\Shaders\ItemGlow.shader" />
      <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Leave.shader" />
      <None Include="Assets\ToonFlowerPlant\Shader\Unlit-Alpha.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">

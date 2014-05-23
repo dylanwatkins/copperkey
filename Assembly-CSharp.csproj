@@ -51,6 +51,7 @@
      <Compile Include="Assets\General Scripts\CharacterStats.cs" />
      <Compile Include="Assets\General Scripts\GUIManager.cs" />
      <Compile Include="Assets\General Scripts\HealthBar.cs" />
+     <Compile Include="Assets\General Scripts\InView.cs" />
      <Compile Include="Assets\General Scripts\ItemStat.cs" />
      <Compile Include="Assets\General Scripts\MiniMapCameraFollow.cs" />
      <Compile Include="Assets\General Scripts\Wander.cs" />
@@ -77,6 +78,7 @@
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation-Lightmap.shader" />
      <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Glass.shader" />
+     <None Include="Assets\Shaders\ItemGlow.shader" />
      <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Leave.shader" />
      <None Include="Assets\ToonFlowerPlant\Shader\Unlit-Alpha.shader" />
   </ItemGroup>

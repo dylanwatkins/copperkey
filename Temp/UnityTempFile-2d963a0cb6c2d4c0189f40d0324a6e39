@@ -43,6 +43,7 @@
 'Assets/General Scripts/CharacterStats.cs'
 'Assets/General Scripts/GUIManager.cs'
 'Assets/General Scripts/HealthBar.cs'
+'Assets/General Scripts/InView.cs'
 'Assets/General Scripts/ItemStat.cs'
 'Assets/General Scripts/MiniMapCameraFollow.cs'
 'Assets/General Scripts/Wander.cs'

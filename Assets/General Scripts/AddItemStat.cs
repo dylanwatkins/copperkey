@@ -108,5 +108,9 @@ public class AddItemStat : MonoBehaviour {
 
 	}
 
+	public void OnLookEnter(Collider collider) {
+		Debug.Log(collider);
+	}
+
 
 }
