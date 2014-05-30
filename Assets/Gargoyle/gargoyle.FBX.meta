@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 1287ebb4e7e05de49aaf22d74c0b5c18
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AngelNeck
+    100002: AngelLAnkle
+    100004: AngelRDigit32
+    100006: AngelRDigit41
+    100008: AngelLDigit22
+    100010: gargoyle
+    100012: AngelLArm1
+    100014: AngelRDigit21
+    100016: AngelSpine3
+    100018: AngelLDigit01
+    100020: AngelRThigh
+    100022: Angel1Bone001 1
+    100024: AngelPelvis
+    100026: AngelRDigit02
+    100028: AngelRArm1
+    100030: AngelRDigit31
+    100032: AngelLDigit13
+    100034: AngelLPalm
+    100036: AngelHead
+    100038: Angel1Bone002
+    100040: AngelRDigit12
+    100042: AngelLArm2
+    100044: AngelRDigit43
+    100046: AngelLDigit12
+    100048: //RootNode
+    100050: AngelLDigit11
+    100052: AngelLDigit32
+    100054: AngelRCalf
+    100056: AngelRPalm
+    100058: AngelRDigit03
+    100060: Angel1Bone001
+    100062: hip
+    100064: AngelLDigit43
+    100066: AngelRDigit42
+    100068: AngelRDigit22
+    100070: AngelRibcage
+    100072: Angel1Bone002 1
+    100074: AngelLDigit41
+    100076: AngelLToe
+    100078: AngelRArmPalm
+    100080: AngelLDigit42
+    100082: AngelLArmPalm
+    100084: AngelRDigit33
+    100086: AngelLUpperarm
+    100088: AngelRDigit13
+    100090: AngelRPlatform
+    100092: Angel
+    100094: AngelLForearm
+    100096: AngelSpine1
+    100098: AngelRArm2
+    100100: AngelLDigit23
+    100102: AngelRDigit01
+    100104: AngelRForearm
+    100106: AngelLPlatform
+    100108: AngelSpine2
+    100110: AngelRAnkle
+    100112: AngelLDigit31
+    100114: AngelRUpperarm
+    100116: AngelLCalf
+    100118: AngelLDigit02
+    100120: AngelTail1
+    100122: AngelRToe
+    100124: AngelLThigh
+    100126: AngelRDigit23
+    100128: AngelRDigit11
+    100130: AngelLDigit03
+    100132: AngelLDigit33
+    100134: AngelLDigit21
+    100136: Angel1Bone002Bone001 1
+    100138: Angel1Bone001Bone001Bone001 1
+    100140: Angel1Bone001Bone001 1
+    100142: AngelRArmDigit23
+    100144: AngelRArmDigit22
+    100146: AngelRArmDigit21
+    100148: AngelRArmCollarbone
+    100150: Angel1Bone002Bone001Bone001
+    100152: Angel1Bone002Bone001
+    100154: Angel1Bone001Bone001Bone001
+    100156: Angel1Bone001Bone001
+    100158: AngelLArmDigit23
+    100160: AngelLArmDigit22
+    100162: AngelLArmDigit21
+    100164: AngelLArmCollarbone
+    100166: AngelRCollarbone
+    100168: AngelLCollarbone
+    100170: AngelPelvisBone001
+    100172: Angel1Bone002Bone001Bone001 1
+    100174: AngelPelvisBone001Bone001Bone001
+    100176: AngelPelvisBone001Bone001
+    400000: AngelNeck
+    400002: AngelLAnkle
+    400004: AngelRDigit32
+    400006: AngelRDigit41
+    400008: AngelLDigit22
+    400010: gargoyle
+    400012: AngelLArm1
+    400014: AngelRDigit21
+    400016: AngelSpine3
+    400018: AngelLDigit01
+    400020: AngelRThigh
+    400022: Angel1Bone001 1
+    400024: AngelPelvis
+    400026: AngelRDigit02
+    400028: AngelRArm1
+    400030: AngelRDigit31
+    400032: AngelLDigit13
+    400034: AngelLPalm
+    400036: AngelHead
+    400038: Angel1Bone002
+    400040: AngelRDigit12
+    400042: AngelLArm2
+    400044: AngelRDigit43
+    400046: AngelLDigit12
+    400048: //RootNode
+    400050: AngelLDigit11
+    400052: AngelLDigit32
+    400054: AngelRCalf
+    400056: AngelRPalm
+    400058: AngelRDigit03
+    400060: Angel1Bone001
+    400062: hip
+    400064: AngelLDigit43
+    400066: AngelRDigit42
+    400068: AngelRDigit22
+    400070: AngelRibcage
+    400072: Angel1Bone002 1
+    400074: AngelLDigit41
+    400076: AngelLToe
+    400078: AngelRArmPalm
+    400080: AngelLDigit42
+    400082: AngelLArmPalm
+    400084: AngelRDigit33
+    400086: AngelLUpperarm
+    400088: AngelRDigit13
+    400090: AngelRPlatform
+    400092: Angel
+    400094: AngelLForearm
+    400096: AngelSpine1
+    400098: AngelRArm2
+    400100: AngelLDigit23
+    400102: AngelRDigit01
+    400104: AngelRForearm
+    400106: AngelLPlatform
+    400108: AngelSpine2
+    400110: AngelRAnkle
+    400112: AngelLDigit31
+    400114: AngelRUpperarm
+    400116: AngelLCalf
+    400118: AngelLDigit02
+    400120: AngelTail1
+    400122: AngelRToe
+    400124: AngelLThigh
+    400126: AngelRDigit23
+    400128: AngelRDigit11
+    400130: AngelLDigit03
+    400132: AngelLDigit33
+    400134: AngelLDigit21
+    400136: Angel1Bone002Bone001 1
+    400138: Angel1Bone001Bone001Bone001 1
+    400140: Angel1Bone001Bone001 1
+    400142: AngelRArmDigit23
+    400144: AngelRArmDigit22
+    400146: AngelRArmDigit21
+    400148: AngelRArmCollarbone
+    400150: Angel1Bone002Bone001Bone001
+    400152: Angel1Bone002Bone001
+    400154: Angel1Bone001Bone001Bone001
+    400156: Angel1Bone001Bone001
+    400158: AngelLArmDigit23
+    400160: AngelLArmDigit22
+    400162: AngelLArmDigit21
+    400164: AngelLArmCollarbone
+    400166: AngelRCollarbone
+    400168: AngelLCollarbone
+    400170: AngelPelvisBone001
+    400172: Angel1Bone002Bone001Bone001 1
+    400174: AngelPelvisBone001Bone001Bone001
+    400176: AngelPelvisBone001Bone001
+    4300000: gargoyle
+    4300002: hip
+    7400000: Take 001
+    7400002: fly
+    7400004: fly attack 1
+    7400006: fly attack 2
+    7400008: 'fly hit '
+    7400010: fly death
+    7400012: fly forward
+    7400014: walk
+    7400016: stand
+    7400018: idle
+    7400020: attack 1
+    7400022: attack 2
+    7400024: attack 3
+    7400026: hit 1
+    7400028: hit 2
+    7400030: death
+    11100000: //RootNode
+    13700000: gargoyle
+    13700002: hip
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fly
+      takeName: 
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fly attack 1
+      takeName: 
+      firstFrame: 62
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fly attack 2
+      takeName: 
+      firstFrame: 123
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 'fly hit '
+      takeName: 
+      firstFrame: 184
+      lastFrame: 214
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fly death
+      takeName: 
+      firstFrame: 215
+      lastFrame: 286
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fly forward
+      takeName: 
+      firstFrame: 288
+      lastFrame: 318
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: 
+      firstFrame: 351
+      lastFrame: 381
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: stand
+      takeName: 
+      firstFrame: 414
+      lastFrame: 459
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 461
+      lastFrame: 581
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack 1
+      takeName: 
+      firstFrame: 583
+      lastFrame: 613
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack 2
+      takeName: 
+      firstFrame: 615
+      lastFrame: 645
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack 3
+      takeName: 
+      firstFrame: 647
+      lastFrame: 692
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit 1
+      takeName: 
+      firstFrame: 694
+      lastFrame: 709
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit 2
+      takeName: 
+      firstFrame: 711
+      lastFrame: 726
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: 
+      firstFrame: 728
+      lastFrame: 787
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
