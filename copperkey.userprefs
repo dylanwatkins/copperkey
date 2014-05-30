@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/General Scripts/AddItemStat.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyCustomAssets/InView.cs">
     <Files>
-      <File FileName="Assets/General Scripts/AddItemStat.cs" Line="112" Column="28" />
-      <File FileName="Assets/General Scripts/InView.cs" Line="1" Column="1" />
-      <File FileName="Assets/Shaders/ItemGlow.shader" Line="8" Column="3" />
+      <File FileName="Assets/Shaders/ItemGlow.shader" Line="1" Column="1" />
+      <File FileName="Assets/MyCustomAssets/AddItemStat.cs" Line="96" Column="41" />
+      <File FileName="Assets/MyCustomAssets/InView.cs" Line="34" Column="59" />
+      <File FileName="Assets/General Scripts/CharacterStats.cs" Line="1" Column="1" />
+      <File FileName="Assets/General Scripts/ItemStat.cs" Line="1" Column="1" />
+      <File FileName="Assets/MyCustomAssets/Actions.cs" Line="65" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

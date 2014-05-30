@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{349F2605-F357-4A5E-D1C0-2DD9076C51B6}</ProjectGuid>
+	<ProjectGuid>{7778104F-1F4B-35D5-B631-E6E8807A2C3B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,21 +48,24 @@
   <ItemGroup>
      <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
-     <Compile Include="Assets\General Scripts\AddItemStat.cs" />
      <Compile Include="Assets\General Scripts\CharacterSounds.cs" />
      <Compile Include="Assets\General Scripts\CharacterStats.cs" />
      <Compile Include="Assets\General Scripts\GUIManager.cs" />
      <Compile Include="Assets\General Scripts\GameState.cs" />
      <Compile Include="Assets\General Scripts\HealthBar.cs" />
      <Compile Include="Assets\General Scripts\HelloWorld.cs" />
-     <Compile Include="Assets\General Scripts\InView.cs" />
      <Compile Include="Assets\General Scripts\Inventory.cs" />
      <Compile Include="Assets\General Scripts\ItemStat.cs" />
      <Compile Include="Assets\General Scripts\LanternFuel.cs" />
      <Compile Include="Assets\General Scripts\MiniMapCameraFollow.cs" />
+     <Compile Include="Assets\General Scripts\OldAddItemStat.cs" />
+     <Compile Include="Assets\General Scripts\OldInView.cs" />
      <Compile Include="Assets\General Scripts\PlayerSpawnController.cs" />
      <Compile Include="Assets\General Scripts\Shrine.cs" />
      <Compile Include="Assets\General Scripts\Wander.cs" />
+     <Compile Include="Assets\MyCustomAssets\Actions.cs" />
+     <Compile Include="Assets\MyCustomAssets\AddItemStat.cs" />
+     <Compile Include="Assets\MyCustomAssets\InView.cs" />
      <Compile Include="Assets\OVR\OVRImageEffects\OVRImageEffectBase.cs" />
      <Compile Include="Assets\OVR\OVRImageEffects\OVRLensCorrection.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCamera.cs" />
@@ -112,12 +115,12 @@
      <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/dylanwatkins/CopperKeyDemo01/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/dylan/Desktop/copperkey/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{5B182009-0638-3760-349A-EE422BD124D5}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{4F87A328-A824-DB1E-8629-5D1D78D23868}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
